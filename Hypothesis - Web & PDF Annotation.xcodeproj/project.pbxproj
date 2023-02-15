@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BCF829299D73BC007E0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF828299D73BC007E0A81 /* AppDelegate.swift */; };
+		32BCF82B299D73BC007E0A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF82A299D73BC007E0A81 /* SceneDelegate.swift */; };
+		32BCF82E299D73BC007E0A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF82C299D73BC007E0A81 /* LaunchScreen.storyboard */; };
+		32BCF831299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF82F299D73BC007E0A81 /* Main.storyboard */; };
+		32BCF83A299D73BC007E0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF839299D73BC007E0A81 /* AppDelegate.swift */; };
+		32BCF83D299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF83B299D73BC007E0A81 /* Main.storyboard */; };
+		32BCF845299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF84F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF855299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
+		32BCF856299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
+		32BCF857299D73BC007E0A81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81A299D73BA007E0A81 /* Icon.png */; };
+		32BCF858299D73BC007E0A81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81A299D73BA007E0A81 /* Icon.png */; };
+		32BCF859299D73BC007E0A81 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81B299D73BA007E0A81 /* Style.css */; };
+		32BCF85A299D73BC007E0A81 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81B299D73BA007E0A81 /* Style.css */; };
+		32BCF85B299D73BC007E0A81 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81C299D73BA007E0A81 /* Script.js */; };
+		32BCF85C299D73BC007E0A81 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81C299D73BA007E0A81 /* Script.js */; };
+		32BCF85D299D73BC007E0A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF81D299D73BA007E0A81 /* ViewController.swift */; };
+		32BCF85E299D73BC007E0A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF81D299D73BA007E0A81 /* ViewController.swift */; };
+		32BCF85F299D73BC007E0A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81E299D73BC007E0A81 /* Assets.xcassets */; };
+		32BCF860299D73BC007E0A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81E299D73BC007E0A81 /* Assets.xcassets */; };
+		32BCF861299D73BC007E0A81 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */; };
+		32BCF862299D73BC007E0A81 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */; };
+		32BCF882299D73BC007E0A81 /* options in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF874299D73BC007E0A81 /* options */; };
+		32BCF883299D73BC007E0A81 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF875299D73BC007E0A81 /* images */; };
+		32BCF884299D73BC007E0A81 /* manifest.fingerprint in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF877299D73BC007E0A81 /* manifest.fingerprint */; };
+		32BCF885299D73BC007E0A81 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF878299D73BC007E0A81 /* _metadata */; };
+		32BCF886299D73BC007E0A81 /* pdfjs in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF879299D73BC007E0A81 /* pdfjs */; };
+		32BCF887299D73BC007E0A81 /* pdfjs-init.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87A299D73BC007E0A81 /* pdfjs-init.js */; };
+		32BCF888299D73BC007E0A81 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87B299D73BC007E0A81 /* manifest.json */; };
+		32BCF889299D73BC007E0A81 /* extension.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87C299D73BC007E0A81 /* extension.bundle.js */; };
+		32BCF88A299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */; };
+		32BCF88B299D73BC007E0A81 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87E299D73BC007E0A81 /* client */; };
+		32BCF88C299D73BC007E0A81 /* unload-client.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87F299D73BC007E0A81 /* unload-client.js */; };
+		32BCF88D299D73BC007E0A81 /* settings-data.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF880299D73BC007E0A81 /* settings-data.js */; };
+		32BCF88E299D73BC007E0A81 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF881299D73BC007E0A81 /* help */; };
+		32BCF88F299D73BC007E0A81 /* options in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF874299D73BC007E0A81 /* options */; };
+		32BCF890299D73BC007E0A81 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF875299D73BC007E0A81 /* images */; };
+		32BCF891299D73BC007E0A81 /* manifest.fingerprint in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF877299D73BC007E0A81 /* manifest.fingerprint */; };
+		32BCF892299D73BC007E0A81 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF878299D73BC007E0A81 /* _metadata */; };
+		32BCF893299D73BC007E0A81 /* pdfjs in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF879299D73BC007E0A81 /* pdfjs */; };
+		32BCF894299D73BC007E0A81 /* pdfjs-init.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87A299D73BC007E0A81 /* pdfjs-init.js */; };
+		32BCF895299D73BC007E0A81 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87B299D73BC007E0A81 /* manifest.json */; };
+		32BCF896299D73BC007E0A81 /* extension.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87C299D73BC007E0A81 /* extension.bundle.js */; };
+		32BCF897299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */; };
+		32BCF898299D73BC007E0A81 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87E299D73BC007E0A81 /* client */; };
+		32BCF899299D73BC007E0A81 /* unload-client.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87F299D73BC007E0A81 /* unload-client.js */; };
+		32BCF89A299D73BC007E0A81 /* settings-data.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF880299D73BC007E0A81 /* settings-data.js */; };
+		32BCF89B299D73BC007E0A81 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF881299D73BC007E0A81 /* help */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BCF846299D73BC007E0A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BCF812299D73B9007E0A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BCF843299D73BC007E0A81;
+			remoteInfo = "Hypothesis - Web & PDF Annotation Extension (iOS)";
+		};
+		32BCF850299D73BC007E0A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BCF812299D73B9007E0A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BCF84D299D73BC007E0A81;
+			remoteInfo = "Hypothesis - Web & PDF Annotation Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32BCF868299D73BC007E0A81 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32BCF845299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF86F299D73BC007E0A81 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32BCF84F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32BCF819299D73BA007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		32BCF81A299D73BA007E0A81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		32BCF81B299D73BA007E0A81 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		32BCF81C299D73BA007E0A81 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		32BCF81D299D73BA007E0A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32BCF81E299D73BC007E0A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF828299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BCF82A299D73BC007E0A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32BCF82D299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BCF830299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BCF832299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF839299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BCF83C299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BCF83E299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCF83F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
+		32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF849299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF853299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BCF854299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
+		32BCF874299D73BC007E0A81 /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = ../../options; sourceTree = "<group>"; };
+		32BCF875299D73BC007E0A81 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../images; sourceTree = "<group>"; };
+		32BCF876299D73BC007E0A81 /* extension.bundle.js.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = extension.bundle.js.map; path = ../../extension.bundle.js.map; sourceTree = "<group>"; };
+		32BCF877299D73BC007E0A81 /* manifest.fingerprint */ = {isa = PBXFileReference; lastKnownFileType = text; name = manifest.fingerprint; path = ../../manifest.fingerprint; sourceTree = "<group>"; };
+		32BCF878299D73BC007E0A81 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../_metadata; sourceTree = "<group>"; };
+		32BCF879299D73BC007E0A81 /* pdfjs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pdfjs; path = ../../pdfjs; sourceTree = "<group>"; };
+		32BCF87A299D73BC007E0A81 /* pdfjs-init.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "pdfjs-init.js"; path = "../../pdfjs-init.js"; sourceTree = "<group>"; };
+		32BCF87B299D73BC007E0A81 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		32BCF87C299D73BC007E0A81 /* extension.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = extension.bundle.js; path = ../../extension.bundle.js; sourceTree = "<group>"; };
+		32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Hypothesis - Web & PDF Annotation"; sourceTree = SOURCE_ROOT; };
+		32BCF87E299D73BC007E0A81 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = client; path = ../../client; sourceTree = "<group>"; };
+		32BCF87F299D73BC007E0A81 /* unload-client.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "unload-client.js"; path = "../../unload-client.js"; sourceTree = "<group>"; };
+		32BCF880299D73BC007E0A81 /* settings-data.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "settings-data.js"; path = "../../settings-data.js"; sourceTree = "<group>"; };
+		32BCF881299D73BC007E0A81 /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = help; path = ../../help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BCF822299D73BC007E0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF834299D73BC007E0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF841299D73BC007E0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF84B299D73BC007E0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BCF811299D73B9007E0A81 = {
+			isa = PBXGroup;
+			children = (
+				32BCF816299D73BA007E0A81 /* Shared (App) */,
+				32BCF81F299D73BC007E0A81 /* Shared (Extension) */,
+				32BCF827299D73BC007E0A81 /* iOS (App) */,
+				32BCF838299D73BC007E0A81 /* macOS (App) */,
+				32BCF848299D73BC007E0A81 /* iOS (Extension) */,
+				32BCF852299D73BC007E0A81 /* macOS (Extension) */,
+				32BCF826299D73BC007E0A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BCF816299D73BA007E0A81 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF81D299D73BA007E0A81 /* ViewController.swift */,
+				32BCF81E299D73BC007E0A81 /* Assets.xcassets */,
+				32BCF817299D73BA007E0A81 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		32BCF817299D73BA007E0A81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF818299D73BA007E0A81 /* Main.html */,
+				32BCF81A299D73BA007E0A81 /* Icon.png */,
+				32BCF81B299D73BA007E0A81 /* Style.css */,
+				32BCF81C299D73BA007E0A81 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32BCF81F299D73BC007E0A81 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF873299D73BC007E0A81 /* Resources */,
+				32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		32BCF826299D73BC007E0A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */,
+				32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */,
+				32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */,
+				32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BCF827299D73BC007E0A81 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF828299D73BC007E0A81 /* AppDelegate.swift */,
+				32BCF82A299D73BC007E0A81 /* SceneDelegate.swift */,
+				32BCF82C299D73BC007E0A81 /* LaunchScreen.storyboard */,
+				32BCF82F299D73BC007E0A81 /* Main.storyboard */,
+				32BCF832299D73BC007E0A81 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		32BCF838299D73BC007E0A81 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF839299D73BC007E0A81 /* AppDelegate.swift */,
+				32BCF83B299D73BC007E0A81 /* Main.storyboard */,
+				32BCF83E299D73BC007E0A81 /* Info.plist */,
+				32BCF83F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		32BCF848299D73BC007E0A81 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF849299D73BC007E0A81 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		32BCF852299D73BC007E0A81 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF853299D73BC007E0A81 /* Info.plist */,
+				32BCF854299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		32BCF873299D73BC007E0A81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32BCF874299D73BC007E0A81 /* options */,
+				32BCF875299D73BC007E0A81 /* images */,
+				32BCF876299D73BC007E0A81 /* extension.bundle.js.map */,
+				32BCF877299D73BC007E0A81 /* manifest.fingerprint */,
+				32BCF878299D73BC007E0A81 /* _metadata */,
+				32BCF879299D73BC007E0A81 /* pdfjs */,
+				32BCF87A299D73BC007E0A81 /* pdfjs-init.js */,
+				32BCF87B299D73BC007E0A81 /* manifest.json */,
+				32BCF87C299D73BC007E0A81 /* extension.bundle.js */,
+				32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */,
+				32BCF87E299D73BC007E0A81 /* client */,
+				32BCF87F299D73BC007E0A81 /* unload-client.js */,
+				32BCF880299D73BC007E0A81 /* settings-data.js */,
+				32BCF881299D73BC007E0A81 /* help */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BCF824299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (iOS)" */;
+			buildPhases = (
+				32BCF821299D73BC007E0A81 /* Sources */,
+				32BCF822299D73BC007E0A81 /* Frameworks */,
+				32BCF823299D73BC007E0A81 /* Resources */,
+				32BCF868299D73BC007E0A81 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BCF847299D73BC007E0A81 /* PBXTargetDependency */,
+			);
+			name = "Hypothesis - Web & PDF Annotation (iOS)";
+			productName = "Hypothesis - Web & PDF Annotation (iOS)";
+			productReference = 32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BCF836299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (macOS)" */;
+			buildPhases = (
+				32BCF833299D73BC007E0A81 /* Sources */,
+				32BCF834299D73BC007E0A81 /* Frameworks */,
+				32BCF835299D73BC007E0A81 /* Resources */,
+				32BCF86F299D73BC007E0A81 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BCF851299D73BC007E0A81 /* PBXTargetDependency */,
+			);
+			name = "Hypothesis - Web & PDF Annotation (macOS)";
+			productName = "Hypothesis - Web & PDF Annotation (macOS)";
+			productReference = 32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (iOS)" */;
+			buildPhases = (
+				32BCF840299D73BC007E0A81 /* Sources */,
+				32BCF841299D73BC007E0A81 /* Frameworks */,
+				32BCF842299D73BC007E0A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hypothesis - Web & PDF Annotation Extension (iOS)";
+			productName = "Hypothesis - Web & PDF Annotation Extension (iOS)";
+			productReference = 32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (macOS)" */;
+			buildPhases = (
+				32BCF84A299D73BC007E0A81 /* Sources */,
+				32BCF84B299D73BC007E0A81 /* Frameworks */,
+				32BCF84C299D73BC007E0A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hypothesis - Web & PDF Annotation Extension (macOS)";
+			productName = "Hypothesis - Web & PDF Annotation Extension (macOS)";
+			productReference = 32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BCF812299D73B9007E0A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32BCF824299D73BC007E0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					32BCF836299D73BC007E0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					32BCF843299D73BC007E0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					32BCF84D299D73BC007E0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis - Web & PDF Annotation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BCF811299D73B9007E0A81;
+			productRefGroup = 32BCF826299D73BC007E0A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BCF824299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (iOS) */,
+				32BCF836299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (macOS) */,
+				32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */,
+				32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BCF823299D73BC007E0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF857299D73BC007E0A81 /* Icon.png in Resources */,
+				32BCF82E299D73BC007E0A81 /* LaunchScreen.storyboard in Resources */,
+				32BCF855299D73BC007E0A81 /* Main.html in Resources */,
+				32BCF85B299D73BC007E0A81 /* Script.js in Resources */,
+				32BCF85F299D73BC007E0A81 /* Assets.xcassets in Resources */,
+				32BCF831299D73BC007E0A81 /* Main.storyboard in Resources */,
+				32BCF859299D73BC007E0A81 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF835299D73BC007E0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF858299D73BC007E0A81 /* Icon.png in Resources */,
+				32BCF85A299D73BC007E0A81 /* Style.css in Resources */,
+				32BCF83D299D73BC007E0A81 /* Main.storyboard in Resources */,
+				32BCF85C299D73BC007E0A81 /* Script.js in Resources */,
+				32BCF860299D73BC007E0A81 /* Assets.xcassets in Resources */,
+				32BCF856299D73BC007E0A81 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF842299D73BC007E0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF890299D73BC007E0A81 /* images in Resources */,
+				32BCF89B299D73BC007E0A81 /* help in Resources */,
+				32BCF895299D73BC007E0A81 /* manifest.json in Resources */,
+				32BCF893299D73BC007E0A81 /* pdfjs in Resources */,
+				32BCF896299D73BC007E0A81 /* extension.bundle.js in Resources */,
+				32BCF892299D73BC007E0A81 /* _metadata in Resources */,
+				32BCF898299D73BC007E0A81 /* client in Resources */,
+				32BCF897299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */,
+				32BCF891299D73BC007E0A81 /* manifest.fingerprint in Resources */,
+				32BCF894299D73BC007E0A81 /* pdfjs-init.js in Resources */,
+				32BCF88F299D73BC007E0A81 /* options in Resources */,
+				32BCF899299D73BC007E0A81 /* unload-client.js in Resources */,
+				32BCF89A299D73BC007E0A81 /* settings-data.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF84C299D73BC007E0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF883299D73BC007E0A81 /* images in Resources */,
+				32BCF88E299D73BC007E0A81 /* help in Resources */,
+				32BCF888299D73BC007E0A81 /* manifest.json in Resources */,
+				32BCF886299D73BC007E0A81 /* pdfjs in Resources */,
+				32BCF889299D73BC007E0A81 /* extension.bundle.js in Resources */,
+				32BCF885299D73BC007E0A81 /* _metadata in Resources */,
+				32BCF88B299D73BC007E0A81 /* client in Resources */,
+				32BCF88A299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */,
+				32BCF884299D73BC007E0A81 /* manifest.fingerprint in Resources */,
+				32BCF887299D73BC007E0A81 /* pdfjs-init.js in Resources */,
+				32BCF882299D73BC007E0A81 /* options in Resources */,
+				32BCF88C299D73BC007E0A81 /* unload-client.js in Resources */,
+				32BCF88D299D73BC007E0A81 /* settings-data.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BCF821299D73BC007E0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF85D299D73BC007E0A81 /* ViewController.swift in Sources */,
+				32BCF829299D73BC007E0A81 /* AppDelegate.swift in Sources */,
+				32BCF82B299D73BC007E0A81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF833299D73BC007E0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF85E299D73BC007E0A81 /* ViewController.swift in Sources */,
+				32BCF83A299D73BC007E0A81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF840299D73BC007E0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF861299D73BC007E0A81 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BCF84A299D73BC007E0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BCF862299D73BC007E0A81 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BCF847299D73BC007E0A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */;
+			targetProxy = 32BCF846299D73BC007E0A81 /* PBXContainerItemProxy */;
+		};
+		32BCF851299D73BC007E0A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */;
+			targetProxy = 32BCF850299D73BC007E0A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BCF818299D73BA007E0A81 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCF819299D73BA007E0A81 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		32BCF82C299D73BC007E0A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCF82D299D73BC007E0A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		32BCF82F299D73BC007E0A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCF830299D73BC007E0A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BCF83B299D73BC007E0A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BCF83C299D73BC007E0A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BCF863299D73BC007E0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BCF864299D73BC007E0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32BCF866299D73BC007E0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BCF867299D73BC007E0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BCF86A299D73BC007E0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hypothesis;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BCF86B299D73BC007E0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hypothesis;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BCF86D299D73BC007E0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hypothesis - Web & PDF Annotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32BCF86E299D73BC007E0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hypothesis - Web & PDF Annotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		32BCF871299D73BC007E0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hypothesis - Web & PDF Annotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32BCF872299D73BC007E0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hypothesis - Web & PDF Annotation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCH5W6VSL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
+				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis - Web & PDF Annotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCF863299D73BC007E0A81 /* Debug */,
+				32BCF864299D73BC007E0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCF866299D73BC007E0A81 /* Debug */,
+				32BCF867299D73BC007E0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCF86A299D73BC007E0A81 /* Debug */,
+				32BCF86B299D73BC007E0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCF86D299D73BC007E0A81 /* Debug */,
+				32BCF86E299D73BC007E0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BCF871299D73BC007E0A81 /* Debug */,
+				32BCF872299D73BC007E0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BCF812299D73B9007E0A81 /* Project object */;
+}
