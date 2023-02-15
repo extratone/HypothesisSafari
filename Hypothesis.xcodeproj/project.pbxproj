@@ -13,8 +13,8 @@
 		32BCF831299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF82F299D73BC007E0A81 /* Main.storyboard */; };
 		32BCF83A299D73BC007E0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF839299D73BC007E0A81 /* AppDelegate.swift */; };
 		32BCF83D299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF83B299D73BC007E0A81 /* Main.storyboard */; };
-		32BCF845299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		32BCF84F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF845299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF84F299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		32BCF855299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
 		32BCF856299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
 		32BCF857299D73BC007E0A81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81A299D73BA007E0A81 /* Icon.png */; };
@@ -81,7 +81,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				32BCF845299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */,
+				32BCF845299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				32BCF84F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex in Embed Foundation Extensions */,
+				32BCF84F299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,20 +107,20 @@
 		32BCF81D299D73BA007E0A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32BCF81E299D73BC007E0A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF825299D73BC007E0A81 /* Hypothesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypothesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF828299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BCF82A299D73BC007E0A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		32BCF82D299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32BCF830299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BCF832299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF837299D73BC007E0A81 /* Hypothesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypothesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF839299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BCF83C299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BCF83E299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32BCF83F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
-		32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF849299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis - Web & PDF Annotation Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF853299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32BCF854299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
 		32BCF874299D73BC007E0A81 /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = ../../options; sourceTree = "<group>"; };
@@ -217,10 +217,10 @@
 		32BCF826299D73BC007E0A81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */,
-				32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */,
-				32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */,
-				32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */,
+				32BCF825299D73BC007E0A81 /* Hypothesis.app */,
+				32BCF837299D73BC007E0A81 /* Hypothesis.app */,
+				32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */,
+				32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,9 +290,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32BCF824299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (iOS) */ = {
+		32BCF824299D73BC007E0A81 /* Hypothesis (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (iOS)" */;
+			buildConfigurationList = 32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (iOS)" */;
 			buildPhases = (
 				32BCF821299D73BC007E0A81 /* Sources */,
 				32BCF822299D73BC007E0A81 /* Frameworks */,
@@ -304,14 +304,14 @@
 			dependencies = (
 				32BCF847299D73BC007E0A81 /* PBXTargetDependency */,
 			);
-			name = "Hypothesis - Web & PDF Annotation (iOS)";
+			name = "Hypothesis (iOS)";
 			productName = "Hypothesis - Web & PDF Annotation (iOS)";
-			productReference = 32BCF825299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */;
+			productReference = 32BCF825299D73BC007E0A81 /* Hypothesis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32BCF836299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (macOS) */ = {
+		32BCF836299D73BC007E0A81 /* Hypothesis (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (macOS)" */;
+			buildConfigurationList = 32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (macOS)" */;
 			buildPhases = (
 				32BCF833299D73BC007E0A81 /* Sources */,
 				32BCF834299D73BC007E0A81 /* Frameworks */,
@@ -323,14 +323,14 @@
 			dependencies = (
 				32BCF851299D73BC007E0A81 /* PBXTargetDependency */,
 			);
-			name = "Hypothesis - Web & PDF Annotation (macOS)";
+			name = "Hypothesis (macOS)";
 			productName = "Hypothesis - Web & PDF Annotation (macOS)";
-			productReference = 32BCF837299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.app */;
+			productReference = 32BCF837299D73BC007E0A81 /* Hypothesis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */ = {
+		32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (iOS)" */;
+			buildConfigurationList = 32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (iOS)" */;
 			buildPhases = (
 				32BCF840299D73BC007E0A81 /* Sources */,
 				32BCF841299D73BC007E0A81 /* Frameworks */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = "Hypothesis - Web & PDF Annotation Extension (iOS)";
+			name = "Hypothesis Extension (iOS)";
 			productName = "Hypothesis - Web & PDF Annotation Extension (iOS)";
-			productReference = 32BCF844299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */;
+			productReference = 32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */ = {
+		32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (macOS)" */;
+			buildConfigurationList = 32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (macOS)" */;
 			buildPhases = (
 				32BCF84A299D73BC007E0A81 /* Sources */,
 				32BCF84B299D73BC007E0A81 /* Frameworks */,
@@ -357,9 +357,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hypothesis - Web & PDF Annotation Extension (macOS)";
+			name = "Hypothesis Extension (macOS)";
 			productName = "Hypothesis - Web & PDF Annotation Extension (macOS)";
-			productReference = 32BCF84E299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension.appex */;
+			productReference = 32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -386,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis - Web & PDF Annotation" */;
+			buildConfigurationList = 32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -399,10 +399,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32BCF824299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (iOS) */,
-				32BCF836299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation (macOS) */,
-				32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */,
-				32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */,
+				32BCF824299D73BC007E0A81 /* Hypothesis (iOS) */,
+				32BCF836299D73BC007E0A81 /* Hypothesis (macOS) */,
+				32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */,
+				32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -518,12 +518,12 @@
 /* Begin PBXTargetDependency section */
 		32BCF847299D73BC007E0A81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32BCF843299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (iOS) */;
+			target = 32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */;
 			targetProxy = 32BCF846299D73BC007E0A81 /* PBXContainerItemProxy */;
 		};
 		32BCF851299D73BC007E0A81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32BCF84D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation Extension (macOS) */;
+			target = 32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */;
 			targetProxy = 32BCF850299D73BC007E0A81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -695,7 +695,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				PRODUCT_NAME = "Hypothesis Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -726,7 +726,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				PRODUCT_NAME = "Hypothesis Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -767,7 +767,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				PRODUCT_NAME = Hypothesis;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -806,7 +806,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				PRODUCT_NAME = Hypothesis;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -839,7 +839,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				PRODUCT_NAME = "Hypothesis Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -871,7 +871,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation Extension";
+				PRODUCT_NAME = "Hypothesis Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -908,7 +908,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				PRODUCT_NAME = Hypothesis;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -944,7 +944,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis - Web & PDF Annotation";
+				PRODUCT_NAME = Hypothesis;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -954,7 +954,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis - Web & PDF Annotation" */ = {
+		32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF863299D73BC007E0A81 /* Debug */,
@@ -963,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (iOS)" */ = {
+		32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF866299D73BC007E0A81 /* Debug */,
@@ -972,7 +972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (iOS)" */ = {
+		32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF86A299D73BC007E0A81 /* Debug */,
@@ -981,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation Extension (macOS)" */ = {
+		32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF86D299D73BC007E0A81 /* Debug */,
@@ -990,7 +990,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis - Web & PDF Annotation (macOS)" */ = {
+		32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF871299D73BC007E0A81 /* Debug */,
