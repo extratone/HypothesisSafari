@@ -13,8 +13,8 @@
 		32BCF831299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF82F299D73BC007E0A81 /* Main.storyboard */; };
 		32BCF83A299D73BC007E0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF839299D73BC007E0A81 /* AppDelegate.swift */; };
 		32BCF83D299D73BC007E0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF83B299D73BC007E0A81 /* Main.storyboard */; };
-		32BCF845299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		32BCF84F299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF845299D73BC007E0A81 /* Hypothesis for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF844299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32BCF84F299D73BC007E0A81 /* Hypothesis for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 32BCF84E299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		32BCF855299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
 		32BCF856299D73BC007E0A81 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF818299D73BA007E0A81 /* Main.html */; };
 		32BCF857299D73BC007E0A81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF81A299D73BA007E0A81 /* Icon.png */; };
@@ -37,7 +37,7 @@
 		32BCF887299D73BC007E0A81 /* pdfjs-init.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87A299D73BC007E0A81 /* pdfjs-init.js */; };
 		32BCF888299D73BC007E0A81 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87B299D73BC007E0A81 /* manifest.json */; };
 		32BCF889299D73BC007E0A81 /* extension.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87C299D73BC007E0A81 /* extension.bundle.js */; };
-		32BCF88A299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */; };
+		32BCF88A299D73BC007E0A81 /* Hypothesis in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis */; };
 		32BCF88B299D73BC007E0A81 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87E299D73BC007E0A81 /* client */; };
 		32BCF88C299D73BC007E0A81 /* unload-client.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87F299D73BC007E0A81 /* unload-client.js */; };
 		32BCF88D299D73BC007E0A81 /* settings-data.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF880299D73BC007E0A81 /* settings-data.js */; };
@@ -50,7 +50,7 @@
 		32BCF894299D73BC007E0A81 /* pdfjs-init.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87A299D73BC007E0A81 /* pdfjs-init.js */; };
 		32BCF895299D73BC007E0A81 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87B299D73BC007E0A81 /* manifest.json */; };
 		32BCF896299D73BC007E0A81 /* extension.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87C299D73BC007E0A81 /* extension.bundle.js */; };
-		32BCF897299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */; };
+		32BCF897299D73BC007E0A81 /* Hypothesis in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87D299D73BC007E0A81 /* Hypothesis */; };
 		32BCF898299D73BC007E0A81 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87E299D73BC007E0A81 /* client */; };
 		32BCF899299D73BC007E0A81 /* unload-client.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF87F299D73BC007E0A81 /* unload-client.js */; };
 		32BCF89A299D73BC007E0A81 /* settings-data.js in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF880299D73BC007E0A81 /* settings-data.js */; };
@@ -81,7 +81,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				32BCF845299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */,
+				32BCF845299D73BC007E0A81 /* Hypothesis for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				32BCF84F299D73BC007E0A81 /* Hypothesis Extension.appex in Embed Foundation Extensions */,
+				32BCF84F299D73BC007E0A81 /* Hypothesis for Safari Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,20 +107,20 @@
 		32BCF81D299D73BA007E0A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32BCF81E299D73BC007E0A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BCF820299D73BC007E0A81 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		32BCF825299D73BC007E0A81 /* Hypothesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypothesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF825299D73BC007E0A81 /* Hypothesis for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF828299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BCF82A299D73BC007E0A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		32BCF82D299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32BCF830299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BCF832299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32BCF837299D73BC007E0A81 /* Hypothesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypothesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF837299D73BC007E0A81 /* Hypothesis for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypothesis for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF839299D73BC007E0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BCF83C299D73BC007E0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BCF83E299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32BCF83F299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
-		32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF844299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF849299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BCF84E299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hypothesis for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF853299D73BC007E0A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32BCF854299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hypothesis - Web & PDF Annotation.entitlements"; sourceTree = "<group>"; };
 		32BCF874299D73BC007E0A81 /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = ../../options; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		32BCF87A299D73BC007E0A81 /* pdfjs-init.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "pdfjs-init.js"; path = "../../pdfjs-init.js"; sourceTree = "<group>"; };
 		32BCF87B299D73BC007E0A81 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
 		32BCF87C299D73BC007E0A81 /* extension.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = extension.bundle.js; path = ../../extension.bundle.js; sourceTree = "<group>"; };
-		32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Hypothesis - Web & PDF Annotation"; sourceTree = SOURCE_ROOT; };
+		32BCF87D299D73BC007E0A81 /* Hypothesis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Hypothesis; path = /Users/blue/dev/Hypothesis/Hypothesis; sourceTree = "<absolute>"; };
 		32BCF87E299D73BC007E0A81 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = client; path = ../../client; sourceTree = "<group>"; };
 		32BCF87F299D73BC007E0A81 /* unload-client.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "unload-client.js"; path = "../../unload-client.js"; sourceTree = "<group>"; };
 		32BCF880299D73BC007E0A81 /* settings-data.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "settings-data.js"; path = "../../settings-data.js"; sourceTree = "<group>"; };
@@ -217,10 +217,10 @@
 		32BCF826299D73BC007E0A81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32BCF825299D73BC007E0A81 /* Hypothesis.app */,
-				32BCF837299D73BC007E0A81 /* Hypothesis.app */,
-				32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */,
-				32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */,
+				32BCF825299D73BC007E0A81 /* Hypothesis for Safari.app */,
+				32BCF837299D73BC007E0A81 /* Hypothesis for Safari.app */,
+				32BCF844299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */,
+				32BCF84E299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 				32BCF87A299D73BC007E0A81 /* pdfjs-init.js */,
 				32BCF87B299D73BC007E0A81 /* manifest.json */,
 				32BCF87C299D73BC007E0A81 /* extension.bundle.js */,
-				32BCF87D299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation */,
+				32BCF87D299D73BC007E0A81 /* Hypothesis */,
 				32BCF87E299D73BC007E0A81 /* client */,
 				32BCF87F299D73BC007E0A81 /* unload-client.js */,
 				32BCF880299D73BC007E0A81 /* settings-data.js */,
@@ -290,9 +290,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32BCF824299D73BC007E0A81 /* Hypothesis (iOS) */ = {
+		32BCF824299D73BC007E0A81 /* Hypothesis for Safari (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (iOS)" */;
+			buildConfigurationList = 32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari (iOS)" */;
 			buildPhases = (
 				32BCF821299D73BC007E0A81 /* Sources */,
 				32BCF822299D73BC007E0A81 /* Frameworks */,
@@ -304,14 +304,14 @@
 			dependencies = (
 				32BCF847299D73BC007E0A81 /* PBXTargetDependency */,
 			);
-			name = "Hypothesis (iOS)";
+			name = "Hypothesis for Safari (iOS)";
 			productName = "Hypothesis - Web & PDF Annotation (iOS)";
-			productReference = 32BCF825299D73BC007E0A81 /* Hypothesis.app */;
+			productReference = 32BCF825299D73BC007E0A81 /* Hypothesis for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32BCF836299D73BC007E0A81 /* Hypothesis (macOS) */ = {
+		32BCF836299D73BC007E0A81 /* Hypothesis for Safari (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (macOS)" */;
+			buildConfigurationList = 32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari (macOS)" */;
 			buildPhases = (
 				32BCF833299D73BC007E0A81 /* Sources */,
 				32BCF834299D73BC007E0A81 /* Frameworks */,
@@ -323,14 +323,14 @@
 			dependencies = (
 				32BCF851299D73BC007E0A81 /* PBXTargetDependency */,
 			);
-			name = "Hypothesis (macOS)";
+			name = "Hypothesis for Safari (macOS)";
 			productName = "Hypothesis - Web & PDF Annotation (macOS)";
-			productReference = 32BCF837299D73BC007E0A81 /* Hypothesis.app */;
+			productReference = 32BCF837299D73BC007E0A81 /* Hypothesis for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */ = {
+		32BCF843299D73BC007E0A81 /* Hypothesis for Safari Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (iOS)" */;
+			buildConfigurationList = 32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari Extension (iOS)" */;
 			buildPhases = (
 				32BCF840299D73BC007E0A81 /* Sources */,
 				32BCF841299D73BC007E0A81 /* Frameworks */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = "Hypothesis Extension (iOS)";
+			name = "Hypothesis for Safari Extension (iOS)";
 			productName = "Hypothesis - Web & PDF Annotation Extension (iOS)";
-			productReference = 32BCF844299D73BC007E0A81 /* Hypothesis Extension.appex */;
+			productReference = 32BCF844299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */ = {
+		32BCF84D299D73BC007E0A81 /* Hypothesis for Safari Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (macOS)" */;
+			buildConfigurationList = 32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari Extension (macOS)" */;
 			buildPhases = (
 				32BCF84A299D73BC007E0A81 /* Sources */,
 				32BCF84B299D73BC007E0A81 /* Frameworks */,
@@ -357,9 +357,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hypothesis Extension (macOS)";
+			name = "Hypothesis for Safari Extension (macOS)";
 			productName = "Hypothesis - Web & PDF Annotation Extension (macOS)";
-			productReference = 32BCF84E299D73BC007E0A81 /* Hypothesis Extension.appex */;
+			productReference = 32BCF84E299D73BC007E0A81 /* Hypothesis for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -386,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis" */;
+			buildConfigurationList = 32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis for Safari" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -399,10 +399,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32BCF824299D73BC007E0A81 /* Hypothesis (iOS) */,
-				32BCF836299D73BC007E0A81 /* Hypothesis (macOS) */,
-				32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */,
-				32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */,
+				32BCF824299D73BC007E0A81 /* Hypothesis for Safari (iOS) */,
+				32BCF836299D73BC007E0A81 /* Hypothesis for Safari (macOS) */,
+				32BCF843299D73BC007E0A81 /* Hypothesis for Safari Extension (iOS) */,
+				32BCF84D299D73BC007E0A81 /* Hypothesis for Safari Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -446,7 +446,7 @@
 				32BCF896299D73BC007E0A81 /* extension.bundle.js in Resources */,
 				32BCF892299D73BC007E0A81 /* _metadata in Resources */,
 				32BCF898299D73BC007E0A81 /* client in Resources */,
-				32BCF897299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */,
+				32BCF897299D73BC007E0A81 /* Hypothesis in Resources */,
 				32BCF891299D73BC007E0A81 /* manifest.fingerprint in Resources */,
 				32BCF894299D73BC007E0A81 /* pdfjs-init.js in Resources */,
 				32BCF88F299D73BC007E0A81 /* options in Resources */,
@@ -466,7 +466,7 @@
 				32BCF889299D73BC007E0A81 /* extension.bundle.js in Resources */,
 				32BCF885299D73BC007E0A81 /* _metadata in Resources */,
 				32BCF88B299D73BC007E0A81 /* client in Resources */,
-				32BCF88A299D73BC007E0A81 /* Hypothesis - Web & PDF Annotation in Resources */,
+				32BCF88A299D73BC007E0A81 /* Hypothesis in Resources */,
 				32BCF884299D73BC007E0A81 /* manifest.fingerprint in Resources */,
 				32BCF887299D73BC007E0A81 /* pdfjs-init.js in Resources */,
 				32BCF882299D73BC007E0A81 /* options in Resources */,
@@ -518,12 +518,12 @@
 /* Begin PBXTargetDependency section */
 		32BCF847299D73BC007E0A81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32BCF843299D73BC007E0A81 /* Hypothesis Extension (iOS) */;
+			target = 32BCF843299D73BC007E0A81 /* Hypothesis for Safari Extension (iOS) */;
 			targetProxy = 32BCF846299D73BC007E0A81 /* PBXContainerItemProxy */;
 		};
 		32BCF851299D73BC007E0A81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32BCF84D299D73BC007E0A81 /* Hypothesis Extension (macOS) */;
+			target = 32BCF84D299D73BC007E0A81 /* Hypothesis for Safari Extension (macOS) */;
 			targetProxy = 32BCF850299D73BC007E0A81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -695,7 +695,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis Extension";
+				PRODUCT_NAME = "Hypothesis for Safari Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -726,7 +726,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis Extension";
+				PRODUCT_NAME = "Hypothesis for Safari Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -767,7 +767,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = Hypothesis;
+				PRODUCT_NAME = "Hypothesis for Safari";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -806,7 +806,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = Hypothesis;
+				PRODUCT_NAME = "Hypothesis for Safari";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -839,7 +839,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis Extension";
+				PRODUCT_NAME = "Hypothesis for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -871,7 +871,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = "Hypothesis Extension";
+				PRODUCT_NAME = "Hypothesis for Safari Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -886,6 +886,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hypothesis - Web & PDF Annotation.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JCH5W6VSL6;
@@ -893,6 +894,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -908,7 +910,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = Hypothesis;
+				PRODUCT_NAME = "Hypothesis for Safari";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -922,6 +924,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hypothesis - Web & PDF Annotation.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JCH5W6VSL6;
@@ -929,6 +932,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Hypothesis - Web & PDF Annotation";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -944,7 +948,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = extratone.hypothesis;
-				PRODUCT_NAME = Hypothesis;
+				PRODUCT_NAME = "Hypothesis for Safari";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -954,7 +958,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis" */ = {
+		32BCF815299D73B9007E0A81 /* Build configuration list for PBXProject "Hypothesis for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF863299D73BC007E0A81 /* Debug */,
@@ -963,7 +967,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (iOS)" */ = {
+		32BCF865299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF866299D73BC007E0A81 /* Debug */,
@@ -972,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (iOS)" */ = {
+		32BCF869299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF86A299D73BC007E0A81 /* Debug */,
@@ -981,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis Extension (macOS)" */ = {
+		32BCF86C299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF86D299D73BC007E0A81 /* Debug */,
@@ -990,7 +994,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis (macOS)" */ = {
+		32BCF870299D73BC007E0A81 /* Build configuration list for PBXNativeTarget "Hypothesis for Safari (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BCF871299D73BC007E0A81 /* Debug */,
